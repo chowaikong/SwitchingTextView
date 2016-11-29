@@ -15,14 +15,13 @@ public class MainActivity extends AppCompatActivity {
     SwitchingTextView switchingTextView1 = (SwitchingTextView) findViewById(R.id.st1);
     SwitchingTextView switchingTextView2 = (SwitchingTextView) findViewById(R.id.st2);
     List<String> strings = new ArrayList<>();
-    strings.add("android");
-    strings.add("android studio");
-    strings.add("android studio preview");
-    strings.add("android s");
-    strings.add("android st");
-    strings.add("android stu");
-    strings.add("android stud");
-    strings.add("android studi");
+    strings.add("android 1");
+    strings.add("android 2");
+    strings.add("android 3");
+    strings.add("android 4");
+    strings.add("android 5");
+    strings.add("android 6");
+    strings.add("android 7");
     switchingTextView1.setTextContent(strings);
     switchingTextView2.setTextContent(strings);
   }
